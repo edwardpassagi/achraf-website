@@ -150,22 +150,36 @@ export default function Home() {
                             transition={{ duration: 0.8, ease: "easeOut" }}
                             className="mb-8"
                         >
-                            <div className="relative w-32 h-32 mx-auto mb-6">
+                            <div className="relative w-36 h-36 mx-auto mb-6">
                                 <motion.div
-                                    className="absolute inset-0 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full p-1"
-                                    whileHover={{ scale: 1.05 }}
+                                    className="absolute inset-0 bg-gradient-to-br from-blue-500 via-indigo-600 to-purple-600 rounded-full p-1 shadow-xl"
+                                    whileHover={{ scale: 1.05, rotate: 5 }}
                                     transition={{ duration: 0.3, ease: "easeOut" }}
                                 >
-                                    <div className="w-full h-full bg-white rounded-full p-1">
+                                    <div className="w-full h-full bg-gradient-to-br from-slate-50 to-white rounded-full p-2 shadow-inner">
                                         <motion.img
-                                            src="/images/mo-avatar.jpg"
+                                            src="/images/mo-avatar.png"
                                             alt="Mohamed A. Belakhoua"
-                                            className="w-full h-full object-cover rounded-full"
+                                            className="w-full h-full object-contain rounded-full"
                                             whileHover={{ scale: 1.02 }}
                                             transition={{ duration: 0.3, ease: "easeOut" }}
                                         />
                                     </div>
                                 </motion.div>
+
+                                {/* Subtle glow effect */}
+                                <motion.div
+                                    className="absolute inset-0 bg-gradient-to-br from-blue-400 to-indigo-500 rounded-full opacity-20 blur-md -z-10"
+                                    animate={{
+                                        scale: [1, 1.1, 1],
+                                        opacity: [0.2, 0.3, 0.2]
+                                    }}
+                                    transition={{
+                                        duration: 4,
+                                        repeat: Infinity,
+                                        ease: "easeInOut"
+                                    }}
+                                />
                             </div>
                         </motion.div>
 

@@ -111,7 +111,7 @@ The workflow includes commented configurations for:
 │   └── page.tsx               # Main landing page component
 ├── public/
 │   └── images/
-│       ├── mo-avatar.jpg      # Profile avatar
+│       ├── mo-avatar.png      # Profile avatar (memoji-style)
 │       └── icon.png           # Favicon
 ├── .gitignore                 # Git ignore rules
 ├── next.config.js             # Next.js configuration
@@ -146,7 +146,7 @@ The workflow includes commented configurations for:
 ### Updating Content
 - **Personal Info**: Edit `app/page.tsx` for name, title, description
 - **Company**: Update company name and branding
-- **Avatar**: Replace `public/images/mo-avatar.jpg`
+- **Avatar**: Replace `public/images/mo-avatar.png`
 - **Favicon**: Replace `public/images/icon.png`
 
 ### Styling

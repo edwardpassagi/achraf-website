@@ -1,21 +1,8 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { useState, useEffect } from 'react'
-
-// Dynamic asset path based on environment
-const getAssetPath = (path: string) => {
-    return process.env.NODE_ENV === 'production' ? `/achraf-website${path}` : path;
-}
 
 export default function Home() {
-    const [mounted, setMounted] = useState(false)
-
-    useEffect(() => {
-        setMounted(true)
-    }, [])
-
-    if (!mounted) return null
 
     return (
         <main className="min-h-screen flex items-center justify-center p-4 overflow-hidden relative">
@@ -170,7 +157,7 @@ export default function Home() {
                             >
                                 <div className="w-full h-full bg-white rounded-full p-1">
                                     <motion.img
-                                        src={getAssetPath('/images/mo-avatar.jpg')}
+                                        src="/images/mo-avatar.jpg"
                                         alt="Mohamed A. Belakhoua"
                                         className="w-full h-full object-cover rounded-full"
                                         whileHover={{ scale: 1.02 }}

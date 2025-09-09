@@ -8,7 +8,7 @@ const nextConfig = {
         assetPrefix: '/achraf-website',
     }),
     images: {
-        unoptimized: true,
+        unoptimized: false,
     },
 }
 

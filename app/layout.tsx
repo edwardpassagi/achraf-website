@@ -11,9 +11,9 @@ export const metadata: Metadata = {
     ],
     creator: 'Edward Passagi',
     icons: {
-        icon: '/images/icon.png',
-        shortcut: '/images/icon.png',
-        apple: '/images/icon.png',
+        icon: process.env.NODE_ENV === 'production' ? '/achraf-website/images/icon.png' : '/images/icon.png',
+        shortcut: process.env.NODE_ENV === 'production' ? '/achraf-website/images/icon.png' : '/images/icon.png',
+        apple: process.env.NODE_ENV === 'production' ? '/achraf-website/images/icon.png' : '/images/icon.png',
     },
 }
 

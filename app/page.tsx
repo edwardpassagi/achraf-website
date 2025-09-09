@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import { getAssetPath } from '../lib/utils'
 
 export default function Home() {
 
@@ -158,7 +159,7 @@ export default function Home() {
                                 >
                                     <div className="w-full h-full bg-gradient-to-br from-slate-50 to-white rounded-full p-2 shadow-inner">
                                         <motion.img
-                                            src="/images/mo-avatar.png"
+                                            src={getAssetPath('/images/mo-avatar.png')}
                                             alt="Mohamed A. Belakhoua"
                                             className="w-full h-full object-contain rounded-full"
                                             whileHover={{ scale: 1.02 }}

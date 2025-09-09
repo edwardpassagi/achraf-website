@@ -20,7 +20,7 @@ A clean, modern one-page landing site for Mohamed Achraf Belakhoua, Embedded Eng
 
 ## 🚀 Live Demo
 
-Visit the live site: [https://USERNAME.github.io/REPOSITORY](https://USERNAME.github.io/REPOSITORY)
+Visit the live site: [https://achraf-site.epassagi.com](https://achraf-site.epassagi.com)
 
 ## 🛠️ Tech Stack
 
@@ -173,7 +173,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact
 
 **Mohamed A. Belakhoua** - Embedded Engineer at OmniOn Power
-- **Portfolio**: [https://USERNAME.github.io/REPOSITORY](https://USERNAME.github.io/REPOSITORY)
+- **Portfolio**: [https://achraf-site.epassagi.com](https://achraf-site.epassagi.com)
 - **LinkedIn**: [Add LinkedIn profile]
 - **Email**: [Add professional email]
 

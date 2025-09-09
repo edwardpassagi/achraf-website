@@ -165,7 +165,7 @@ export default function Home() {
                             >
                                 <div className="w-full h-full bg-white rounded-full p-1">
                                     <motion.img
-                                        src="/achraf-website/images/mo-avatar.jpg"
+                                        src="/images/mo-avatar.jpg"
                                         alt="Mohamed A. Belakhoua"
                                         className="w-full h-full object-cover rounded-full"
                                         whileHover={{ scale: 1.02 }}

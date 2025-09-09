@@ -1,6 +1,6 @@
 # Mohamed A. Belakhoua - Portfolio
 
-[![Build and Deploy](https://github.com/USERNAME/REPOSITORY/actions/workflows/deploy.yml/badge.svg)](https://github.com/USERNAME/REPOSITORY/actions/workflows/deploy.yml)
+[![Build and Deploy](https://github.com/edwardpassagi/achraf-website/actions/workflows/deploy.yml/badge.svg)](https://github.com/edwardpassagi/achraf-website/actions/workflows/deploy.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A clean, modern one-page landing site for Mohamed Achraf Belakhoua, Embedded Engineer at OmniOn Power (formerly ABB). This professional portfolio showcases his expertise in embedded systems and hardware-software integration.
@@ -20,7 +20,7 @@ A clean, modern one-page landing site for Mohamed Achraf Belakhoua, Embedded Eng
 
 ## 🚀 Live Demo
 
-Visit the live site: [https://achraf-site.epassagi.com](https://achraf-site.epassagi.com)
+Visit the live site: [https://edwardpassagi.github.io/achraf-website](https://edwardpassagi.github.io/achraf-website)
 
 ## 🛠️ Tech Stack
 
@@ -173,7 +173,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact
 
 **Mohamed A. Belakhoua** - Embedded Engineer at OmniOn Power
-- **Portfolio**: [https://achraf-site.epassagi.com](https://achraf-site.epassagi.com)
+- **Portfolio**: [https://edwardpassagi.github.io/achraf-website](https://edwardpassagi.github.io/achraf-website)
 - **LinkedIn**: [Add LinkedIn profile]
 - **Email**: [Add professional email]
 

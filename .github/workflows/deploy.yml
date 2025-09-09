@@ -76,9 +76,6 @@ jobs:
     - name: Build for production
       run: npm run build
 
-    - name: Add custom domain
-      run: echo 'achraf-site.epassagi.com' > ./out/CNAME
-
     - name: Setup Pages
       uses: actions/configure-pages@v4
 
